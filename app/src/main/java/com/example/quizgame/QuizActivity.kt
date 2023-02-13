@@ -141,7 +141,7 @@ class QuizActivity : AppCompatActivity() {
             override fun onDataChange(snapshot: DataSnapshot) {
                 questionCount = snapshot.childrenCount.toInt()
 
-                //if (questionNumber <= questionCount)
+                //if (questionNumber <= questionCount)vfdvkmkvm
                 if (questionNumber < questions.size) {
                     question = snapshot.child(questions.elementAt(questionNumber).toString()).child("q").value.toString()
                     ansA = snapshot.child(questions.elementAt(questionNumber).toString()).child("a").value.toString()
