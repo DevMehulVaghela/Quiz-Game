@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quiz Game</string>
+    <string name="create_a_new_account_click_here">Create a New Account ? <font color="#000000"> <b>CLICK HERE</b> </font></string>
+    <string name="forogot_password">Forgot Account Password ? <font color="#000000"> <b>CLICK HERE</b> </font></string>
+
+    <string name="already_account">Already Have a Account ? <font color="#000000"> <b>CLICK HERE</b> </font></string>
+</resources>
