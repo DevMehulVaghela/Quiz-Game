@@ -161,6 +161,7 @@ class QuizActivity : AppCompatActivity() {
                     binding.llQuestion.visibility = View.VISIBLE
                     binding.llBtn.visibility = View.VISIBLE
 
+                    //Timer Function
                     startTimer()
                 } else {
                     var dialogMessage = AlertDialog.Builder(this@QuizActivity)
